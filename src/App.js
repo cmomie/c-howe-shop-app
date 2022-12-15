@@ -1,18 +1,20 @@
 import './App.css';
 import Logo from './components/Logo/Logo';
-import Main from './components/Main/Main';
-import SideBar from './components/SideBar/SideBar';
 import Header from './components/Header/Header';
+import SideBar from './components/SideBar/SideBar';
+import Main from './components/Main/Main';
 
 
 
 function App() {
   return (
-    <div className="App">
+    <div id="app">
       <Logo />
-      <Main />
-      <SideBar />
       <Header />
+      <SideBar />
+      <Main />
+      
+      
       
     </div>
   );
